@@ -2,16 +2,16 @@
 
 The lending company lends fund to the borrowers with the expectation that the borrower will pay back the fund. Credit risk associated if the borrower cannot return the fund or repaying a loan causing the loss for the lender. That the reason why the lending company using the models to analyze and identify a borrower's creditworthiness.
 
-    # By using models, it help lending company to determine which loans are healthy(low-risk) or nonhealth(high-risk) loan.
+By using models, it help lending company to determine which loans are healthy(low-risk) or nonhealth(high-risk) loan.
 
-    The Logistic Regression Algorithm is the good tool to use to predict the probability of target variable in classification problems.
-    Using the dataset provided by the lending company, the logistic regression model with an accuracy score of 95%. Although the accuracy of the model is high, the model recall value for non-health loans (0.91) is lower than the recall value for healthy loans (0.99). This indicates that the model predicts the loan status as healthy rather than predicting the loan status as unhealthy. This is due to an imbalanced dataset, which means that most of the data falls into one category of labels (in this case, healthy loans far outnumber non-health loans).
+The Logistic Regression Algorithm is the good tool to use to predict the probability of target variable in classification problems.
+Using the dataset provided by the lending company, the logistic regression model with an accuracy score of 95%. Although the accuracy of the model is high, the model recall value for non-health loans (0.91) is lower than the recall value for healthy loans (0.99). This indicates that the model predicts the loan status as healthy rather than predicting the loan status as unhealthy. This is due to an imbalanced dataset, which means that most of the data falls into one category of labels (in this case, healthy loans far outnumber non-health loans).
 
-    According to the confusion matrix in step 3
+According to the confusion matrix in step 3
 
-    Out of the 18,765 healthy (low-risk) loan statuses, the model correctly predicted 18,663 healthy loan statuses and incorrectly predicted 102 healthy loan statuses.
+Out of the 18,765 healthy (low-risk) loan statuses, the model correctly predicted 18,663 healthy loan statuses and incorrectly predicted 102 healthy loan statuses.
 
-    Out of the 619 unhealthy (high-risk) loan statuses, the model correctly predicted 563 as unhealthy and incorrectly predicted 56 as unhealthy.
+Out of the 619 unhealthy (high-risk) loan statuses, the model correctly predicted 563 as unhealthy and incorrectly predicted 56 as unhealthy.
 
 ## Results
 
